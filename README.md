@@ -12,18 +12,6 @@ Real-time music visualization system for AiP1640-based displays using CAVA audio
 - Customizable JSON configuration
 - Simplified integration with moOde audio player
 
-## Technical Challenges with AiP1640
-
-The AiP1640 chip requires:
-- Manual GPIO signal manipulation ("bit banging")
-- Precise timing requirements
-- Incompatibility with standard hardware peripherals
-
-Despite these challenges, we achieved:
-- Real-time audio column updates
-- Fluid visual effects
-- Stable music-synchronized operation
-
 ## Hardware Requirements
 
 - Raspberry Pi (tested on Pi 3 and 4)
